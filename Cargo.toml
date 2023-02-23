@@ -1,0 +1,9 @@
+[package]
+name = "simple-antivirus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.11.14", features = ["blocking","multipart"] }
+rust-crypto = "0.2.36"
+serde_json = "1.0.93"
